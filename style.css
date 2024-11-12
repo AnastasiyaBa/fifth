@@ -1,0 +1,118 @@
+
+
+/* Mobile first: мобильная версия */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+/* Шапка */
+.header {
+    background-color: #f5d1d1;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.menu-btns a {
+    border-color:#c75c72 ;
+    background-color: #c75c72;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-btns a:hover {
+    border-color:#c75c72 ;
+    background-color: #F4DBDB;
+    color: #c75c72;
+}
+
+/* Заголовки */
+h2 {
+    background-color: #e6c7edf5;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+/* Таблица */
+.table {
+    border: 2px solid #000;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #F4DBDB;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #F4F2EF;
+}
+
+.table td {
+    border: 2px solid #000;
+}
+
+/* Ссылки */
+.s a {
+    text-decoration: none;
+    color: #000;
+}
+
+.s a:hover {
+    text-decoration: none;
+    color: #CD4662;
+}
+
+/* Footer */
+.footer {
+    background-color: #f5d1d1;
+    height: 100px;
+}
+
+
+/*calculator*/
+
+#calc {
+    border: 3px solid #93AECA;
+    border-radius: 20px;
+    background-color:#BED1E3;
+}
+
+label {
+    display: block;
+}
+
+input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+@media (min-width: 800px) {
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    body{
+        font-size: 25px;
+    }
+}
